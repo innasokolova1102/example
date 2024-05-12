@@ -1,0 +1,3 @@
+project(':config-server') {}
+project(':core') {}
+project(':ui') {}

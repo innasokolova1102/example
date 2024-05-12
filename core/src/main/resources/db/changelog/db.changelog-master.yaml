@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: sokolovais:create-tables-test
+      author: sokolovais
+  - include:
+      file: DDL/001_create_tables_test.sql
+      relativeToChangelogFile: true

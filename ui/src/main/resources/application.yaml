@@ -1,0 +1,15 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /ui
+  error:
+    include-message: ALWAYS
+#spring:
+#  profiles.active: test
+
+
+
+feign:
+  book:
+    url: http://localhost:8081/core
+

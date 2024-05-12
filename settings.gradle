@@ -1,0 +1,8 @@
+include "config-server"
+project(":config-server").projectDir = new File("config-server")
+
+include "core"
+project(":core").projectDir = new File("core")
+
+include "ui"
+project(":ui").projectDir = new File("ui")

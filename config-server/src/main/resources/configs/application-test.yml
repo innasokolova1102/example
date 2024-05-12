@@ -1,0 +1,9 @@
+server.port: 8001
+
+
+message:
+  in_progress: "in_progress"
+  invalid: "invalid"
+  success: "success"
+  error: "error"
+  all_error: "all_error"
